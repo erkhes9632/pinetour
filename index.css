@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1440px;
+}
+
+.hero-container {
+  background-image: url(./HeroImage.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 773px;
+  padding: 30px 118px;
+}
+.logo1 {
+  width: 101px;
+  height: 35px;
+}
+.top {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-family: Inter;
+}
+.logo2 {
+  color: #000;
+  font-size: 14px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: #fff;
+}
+#hero-top-sentens {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-mid-sentens {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 169px;
+  margin-left: 270px;
+  margin-bottom: 210px;
+  font-family: "Bebas Neue";
+}
+#awaits {
+  color: rgba(253, 253, 254, 0.98);
+  font-size: 250px;
+}
+#Pure-magic {
+  color: rgba(232, 237, 242, 0.72);
+  font-size: 80px;
+}
+#hero-number {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 64px;
+}
+
+.location-container {
+  background-image: url(./Location\ image.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 512px;
+  padding: 65px 118px;
+}
+#location-pic {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+#pic-text {
+  color: #fff;
+  font-family: "Bebas Neue";
+  text-align: center;
+  font-size: 37px;
+  padding-top: 143px;
+}
+#box1 {
+  background-image: url(./pic1.png);
+  background-position: center;
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+#box2 {
+  background-image: url(./pic2.png);
+  background-position: center;
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+#box3 {
+  background-image: url(./pic3.png);
+  background-position: center;
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+#box4 {
+  background-image: url(./pic4.png);
+  background-position: center;
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+.roadmap-container {
+  background-image: url(./Roadmap\ image.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1022px;
+  padding: 0px 118px;
+}
+#roadmap-head-text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+  padding-top: 120px;
+}
+#roadmap-head-secondtext {
+  color: rgba(24, 24, 27, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+}
+#border {
+  border-radius: 120px;
+  height: 110px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 30px;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+#roadmap-border1 {
+  background: #eee9d9;
+  border-radius: 120px;
+  height: 110px;
+  width: 510px;
+  display: flex;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+#roadmap-border-text1 {
+  color: black;
+  font-family: Inter;
+  font-size: 24px;
+}
+#roadmap-border-text2 {
+  color: black;
+  font-family: Inter;
+  font-size: 12px;
+}
+#roadmap-border-text2-img {
+  width: 14px;
+  height: 14px;
+}
+#day {
+  border: #fff solid;
+  border-radius: 100%;
+  background: #fff;
+  width: 54px;
+  height: 54px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#roadmap-border2 {
+  background: #8bb8c1cc;
+  border-radius: 120px;
+  height: 110px;
+  width: 510px;
+  display: flex;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+#roadmap-border3 {
+  background: #aad8d7cc;
+  border-radius: 120px;
+  height: 110px;
+  width: 510px;
+  display: flex;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+#roadmap-border4 {
+  background: #8bc0bdcc;
+  border-radius: 120px;
+  height: 110px;
+  width: 510px;
+  display: flex;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+#roadmap-border5 {
+  background: #97cce0cc;
+  border-radius: 120px;
+  height: 110px;
+  width: 510px;
+  display: flex;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container {
+  background-image: url(./Price&Footer\ image.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1120px;
+  padding: 40px 118px;
+}
+#footer-top-text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+}
+#footer-top-secondtext {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+}
+#footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer-border1 {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+  background: #fafbfc;
+  margin-top: 119px;
+  padding-left: 24px;
+}
+#footer-border-img {
+  height: 36px;
+  width: 36px;
+  display: flex;
+}
+#hachin-text {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+#deed-hoyr {
+  display: flex;
+  gap: 16px;
+  padding-top: 32px;
+  align-items: center;
+}
+#moneytei-text {
+  display: flex;
+  margin-top: 12px;
+}
+#mangar-text {
+  color: var(--Text-TextSecondary, #3f4145);
+  font-family: Inter;
+  font-size: 14px;
+}
+#mangar-zurg {
+  width: 20px;
+  height: 20px;
+}
+#mangar-mor {
+  display: flex;
+  flex-direction: row;
+}
+#mangar-border {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background: #a4d1e2;
+  height: 48px;
+  width: 336px;
+}
+#moneytei-heseg {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+#mangar-border:hover {
+  background-color: #000;
+  color: white;
+}
+#box1:hover {
+  opacity: 0.5;
+}
+#box2:hover {
+  opacity: 0.5;
+}
+#box3:hover {
+  opacity: 0.5;
+}
+#box4:hover {
+  opacity: 0.5;
+}
+
+#suhbaatar-img {
+  background-image: url(./Frame\ 176.png);
+  height: 245px;
+  width: 245px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1600px;
+  right: 900px;
+  opacity: 0;
+}
+#amaraa-img {
+  background-image: url(./Frame\ 177.png);
+  height: 245px;
+  width: 245px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1500px;
+  right: 1100px;
+  opacity: 0;
+}
+#togoo-img {
+  background-image: url(./11111.png);
+  height: 245px;
+  width: 245px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1600px;
+  right: 1300px;
+  opacity: 0;
+}
+#terhiin-img {
+  background-image: url(./Frame\ 178.png);
+  height: 245px;
+  width: 245px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1400px;
+  right: 1300px;
+  opacity: 0;
+}
+#hovsgol-img {
+  background-image: url(./Frame\ 179.png);
+  height: 245px;
+  width: 245px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1800px;
+  right: 1200px;
+  opacity: 0;
+}
+#roadmap-border1:hover {
+  border: 3px solid white;
+}
+#roadmap-border2:hover {
+  border: 3px solid white;
+}
+#roadmap-border3:hover {
+  border: 3px solid white;
+}
+#roadmap-border4:hover {
+  border: 3px solid white;
+}
+#roadmap-border5:hover {
+  border: 3px solid white;
+}
+#roadmap-border1:hover ~ #suhbaatar-img {
+  opacity: 1;
+}
+#roadmap-border2:hover ~ #amaraa-img {
+  opacity: 1;
+}
+#roadmap-border3:hover ~ #togoo-img {
+  opacity: 1;
+}
+#roadmap-border4:hover ~ #terhiin-img {
+  opacity: 1;
+}
+#roadmap-border5:hover ~ #hovsgol-img {
+  opacity: 1;
+}
