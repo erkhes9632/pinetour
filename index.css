@@ -16,7 +16,7 @@
 }
 
 .hero-container {
-  background-image: url(./HeroImage.jpg);
+  background-image: url(./img/HeroImage.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -74,7 +74,7 @@
 }
 
 .location-container {
-  background-image: url(./Location\ image.png);
+  background-image: url(./img/Location\ image.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -94,7 +94,7 @@
   padding-top: 143px;
 }
 #box1 {
-  background-image: url(./pic1.png);
+  background-image: url(./img/pic1.png);
   background-position: center;
   background-size: cover;
   width: 275px;
@@ -103,7 +103,7 @@
   border-radius: 30px;
 }
 #box2 {
-  background-image: url(./pic2.png);
+  background-image: url(./img/pic2.png);
   background-position: center;
   background-size: cover;
   width: 275px;
@@ -112,7 +112,7 @@
   border-radius: 30px;
 }
 #box3 {
-  background-image: url(./pic3.png);
+  background-image: url(./img/pic3.png);
   background-position: center;
   background-size: cover;
   width: 275px;
@@ -121,7 +121,7 @@
   border-radius: 30px;
 }
 #box4 {
-  background-image: url(./pic4.png);
+  background-image: url(./img/pic4.png);
   background-position: center;
   background-size: cover;
   width: 275px;
@@ -131,7 +131,7 @@
 }
 
 .roadmap-container {
-  background-image: url(./Roadmap\ image.png);
+  background-image: url(./img/Roadmap\ image.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -239,7 +239,7 @@
 }
 
 .footer-container {
-  background-image: url(./Price&Footer\ image.png);
+  background-image: url(./img/Price&Footer\ image.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -345,7 +345,7 @@
 }
 
 #suhbaatar-img {
-  background-image: url(./Frame\ 176.png);
+  background-image: url(./img/Frame\ 176.png);
   height: 245px;
   width: 245px;
   background-position: center;
@@ -356,7 +356,7 @@
   opacity: 0;
 }
 #amaraa-img {
-  background-image: url(./Frame\ 177.png);
+  background-image: url(./img/Frame\ 177.png);
   height: 245px;
   width: 245px;
   background-position: center;
@@ -367,7 +367,7 @@
   opacity: 0;
 }
 #togoo-img {
-  background-image: url(./11111.png);
+  background-image: url(./img/11111.png);
   height: 245px;
   width: 245px;
   background-position: center;
@@ -378,7 +378,7 @@
   opacity: 0;
 }
 #terhiin-img {
-  background-image: url(./Frame\ 178.png);
+  background-image: url(./img/Frame\ 178.png);
   height: 245px;
   width: 245px;
   background-position: center;
@@ -389,7 +389,7 @@
   opacity: 0;
 }
 #hovsgol-img {
-  background-image: url(./Frame\ 179.png);
+  background-image: url(./img/Frame\ 179.png);
   height: 245px;
   width: 245px;
   background-position: center;
